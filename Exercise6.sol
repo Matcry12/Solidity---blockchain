@@ -11,9 +11,8 @@ contract Ex1{
 }
 contract Ex2{
     int x = 0;
-    function addToX2(int y) public  returns(int){
+    function addToX2(int y) public{
         x = x + y;
-        return x;
     }
     function get_x() public view returns(int){
         return x;
